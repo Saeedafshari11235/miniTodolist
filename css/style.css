@@ -1,9 +1,14 @@
 body{
     width: 99vw;
     height: 96vh;
-    background-color: rgb(70, 41, 117);
+    background-color: rgb(68, 80, 130);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+main{
+    padding: 2rem 1rem;
+    background-color: rgb(70, 41, 117);
+    border-radius: 1rem;
 }
