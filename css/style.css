@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 body{
     width: 99vw;
     height: 96vh;
@@ -6,9 +7,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Itim', cursive;
 }
 main{
-    padding: 2rem 1rem;
+    padding: 4rem 2rem;
     background-color: rgb(70, 41, 117);
     border-radius: 1rem;
 }
@@ -20,8 +22,22 @@ li{
     background-color: rgb(39, 24, 65);
     margin: 0.1rem 1rem;
     border-radius: 0.5em;
-    padding: 0.4rem 0.6rem;
+    padding: 0.6rem 0.6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 16rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 16rem;
+    padding: 0.5rem 0.6rem;
+    color: #fff;
+    background-color: rgb(39, 24, 65);
+    border-radius: 0.3rem;
+    border: none;
 }
